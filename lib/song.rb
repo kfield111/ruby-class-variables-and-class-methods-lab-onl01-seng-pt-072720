@@ -23,7 +23,7 @@ def artists
 end
 
 def genres
-  @@genre.unig
+  @@genres.unig
 end
 
 
