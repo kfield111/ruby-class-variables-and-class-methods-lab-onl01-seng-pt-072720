@@ -31,7 +31,7 @@ end
 def self.genre_count
   hash = {}
   @@genres.each do |this_genre|
-    this_genre
+    if @@genres.includes? this_genre
   end
 end
 
