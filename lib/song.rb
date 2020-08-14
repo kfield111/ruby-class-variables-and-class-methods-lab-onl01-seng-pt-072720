@@ -28,8 +28,8 @@ end
 
 def self.genre_count
   hash = {}
-  @@genres.each do |keys|
-  hash = keys
+  @@genres ||= []
+    hash = keys
   end
 end
 
