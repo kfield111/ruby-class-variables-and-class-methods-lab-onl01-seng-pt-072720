@@ -38,7 +38,7 @@ def self.genre_count
       hash[this_genre] = song_count
     end
   end
-  binding.pry
+  #binding.pry
   hash
 end
 
