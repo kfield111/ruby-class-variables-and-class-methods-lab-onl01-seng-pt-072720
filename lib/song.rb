@@ -31,22 +31,16 @@ end
 
 
 def self.genre_count
-  song_count = 0
-  @@genre_count[@genre] ||= []
-  @@genre_count[@genre].push (song_count)
+  hash = {}
+  @@genres.each do |this_genre|
+    if hash.include?(this_genre)
+      song_count += 1
+      binding.pry
+    else
+      hash[this_genre] = song_count
+    end
+  end
+  hash
 end
-
-# def self.genre_count
-#   hash = {}
-#   @@genres.each do |this_genre|
-#     if hash.include?(this_genre)
-#       song_count += 1
-#       binding.pry
-#     else
-#       hash[this_genre] = song_count
-#     end
-#   end
-#   hash
-# end
 
 end
