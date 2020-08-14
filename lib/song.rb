@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song
   attr_accessor :name, :artist, :genre
 
@@ -30,10 +32,12 @@ def self.genre_count
   hash = {}
   hash[key] = 0
   @@genres.each do |this_genre|
-    if this_genre.exists?
-      key += 1
-    end
-  end
+  binding.pry
+
+  #   if this_genre.exists?
+  #     key += 1
+  #   end
+  # end
 
 
 end
