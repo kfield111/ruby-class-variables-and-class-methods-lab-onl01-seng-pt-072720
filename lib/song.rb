@@ -28,7 +28,7 @@ end
 
 def self.genre_count
   hash = {}
-  self.@@genres.each do |keys|
+  @@genres.each do |keys|
   hash = keys
   end
 end
