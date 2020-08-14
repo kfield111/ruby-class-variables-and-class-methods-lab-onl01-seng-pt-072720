@@ -31,7 +31,9 @@ def self.genre_count
   hash[key] = 0
   @@genres.each do |this_genre|
     if this_genre.exists?
-
+      key += 1
+    end
+  end
 
 
 end
