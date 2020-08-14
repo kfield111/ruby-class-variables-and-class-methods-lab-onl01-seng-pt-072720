@@ -28,9 +28,11 @@ end
 
 def self.genre_count
   hash = {}
-  @@genres.each do |key, songs|
-    if key.exists?
-      count += 1
+  @@genres.each do |this_genre|
+    if this_genre.exists?
+
+
+
 end
 
 end
