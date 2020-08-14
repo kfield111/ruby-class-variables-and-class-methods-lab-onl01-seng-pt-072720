@@ -33,9 +33,9 @@ def self.genre_count
   song_count = 1
   @@genres.each do |this_genre|
     if hash.include? this_genre
-      hash[this_genre] = song_count
-    else
       song_count += 1
+    else
+      hash[this_genre] = song_count
     end
   end
   hash
