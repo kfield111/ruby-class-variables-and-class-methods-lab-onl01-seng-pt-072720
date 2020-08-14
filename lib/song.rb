@@ -16,5 +16,8 @@ def count
   @@count
 end
 
+def artist
+  @@artist
+end
 
 end
