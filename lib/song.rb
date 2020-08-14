@@ -36,8 +36,8 @@ def self.genre_count
     else
       hash[this_genre]
     end
-    hash
   end
+  hash
 end
 
 end
