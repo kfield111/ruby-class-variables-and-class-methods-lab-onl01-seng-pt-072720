@@ -30,7 +30,7 @@ def self.genre_count
   hash = {}
   @@genres.each do |keys|
     hash[keys] ||= {}
-    hash.push keys
+    hash = keys
   end
 end
 
