@@ -23,5 +23,6 @@ end
 def genres
   @@genres ||= []
   @@genres.push genre
+end
 
 end
