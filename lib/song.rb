@@ -14,7 +14,7 @@ def initialize (name, artist, genre)
   @@artists.push artist
 end
 
-def count
+def self.count
   @@count
 end
 
