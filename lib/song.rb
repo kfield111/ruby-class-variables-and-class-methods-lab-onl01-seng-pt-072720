@@ -30,6 +30,7 @@ end
 
 def self.genre_count
   hash = {}
+  hash[genre] = i
   song_count = 0
   @@genres.each do |this_genre|
     if hash.include? this_genre
