@@ -29,7 +29,7 @@ end
 def self.genre_count
   hash = {}
   hash[@genre] ||= []
-  hash[@genre].push count
+  hash[@genre].push @@count
 end
 
 end
