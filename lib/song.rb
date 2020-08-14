@@ -31,7 +31,7 @@ end
 def self.genre_count
   hash = {}
   song_count = 0
-  @@genres.each do |this_genre|
+  @@genres.each do |this_genre, soung_count|
     if hash.include?(this_genre)
       #song_count += 1
       binding.pry
@@ -43,3 +43,12 @@ def self.genre_count
 end
 
 end
+
+
+def num_counter nums
+  nums.inject(Hash.new(0)) do |hash, e|
+    hash[e] += 1
+    hash
+  end
+
+
