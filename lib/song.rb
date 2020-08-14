@@ -29,7 +29,7 @@ end
 def self.genre_count
   hash = {}
   @@genres ||= {}
-  hash = self
+  hash = @@genre
   end
 
 end
