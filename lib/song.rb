@@ -31,8 +31,8 @@ end
 
 
 def self.genre_count(song_count, genre)
-  @roster[grade] ||= []
-  @roster[grade].push (name)
+  @@genre_count[genre] ||= []
+  @roster[grade].push (soung_count)
   end
 end
 
