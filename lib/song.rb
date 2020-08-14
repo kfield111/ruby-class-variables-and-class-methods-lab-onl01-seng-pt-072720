@@ -30,7 +30,6 @@ end
 
 def self.genre_count
   hash = {}
-  hash[key] = 0
   @@genres.each do |this_genre|
     this_genre
   end
