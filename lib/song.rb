@@ -31,6 +31,5 @@ def self.genre_count
   @@genres ||= {}
   hash = keys
   end
-end
 
 end
