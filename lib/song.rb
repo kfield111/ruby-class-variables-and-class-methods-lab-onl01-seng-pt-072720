@@ -35,7 +35,7 @@ def self.genre_count
     if hash.include? this_genre
       song_count += 1
     else
-      hash[this_genre] = this_genre
+      hash[this_genre] = 1
     end
   end
   hash
