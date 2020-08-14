@@ -50,5 +50,3 @@ def num_counter nums
     hash[e] += 1
     hash
   end
-
-
