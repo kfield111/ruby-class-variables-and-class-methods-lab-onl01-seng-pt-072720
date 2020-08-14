@@ -30,7 +30,7 @@ def self.genres
 end
 
 
-def self.genre_count(song_count, genre)
+def self.genre_count
   @@genre_count[genre] ||= []
   @@genre[genre].push (soung_count)
 end
