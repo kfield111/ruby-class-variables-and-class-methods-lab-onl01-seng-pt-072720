@@ -32,7 +32,7 @@ end
 
 def self.genre_count(song_count, genre)
   @@genre_count[genre] ||= []
-  @roster[grade].push (soung_count)
+  @@genre[genre].push (soung_count)
   end
 end
 
