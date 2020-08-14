@@ -34,7 +34,6 @@ def self.genre_count
   @@genres.each do
     if hash.include?(@genre)
       song_count += 1
-      binding.pry
     else
       hash[@genre] = song_count
     end
