@@ -10,9 +10,7 @@ def initialize (name, artist, genre)
   @artist = artist
   @genre = genre
   @@count += 1
-  @@genres ||= []
   @@genres.push genre
-  @@artist ||= []
   @@artist.push artist
 end
 
@@ -20,10 +18,9 @@ def count
   @@count
 end
 
-def artist
-  @@artist
+def artists
+  @@artist.uniq
 end
-
 
 
 end
