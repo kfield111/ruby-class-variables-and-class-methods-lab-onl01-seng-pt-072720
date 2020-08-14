@@ -15,6 +15,7 @@ def initialize (name, artist, genre)
   @@genres.push genre
   @@artists.push artist
 end
+  binding.pry
 
 def self.count
   @@count
@@ -31,7 +32,6 @@ end
 def self.genre_count
   hash = {}
   hash[key] = 0
-  binding.pry
   @@genres.each do |this_genre|
   end
 end
