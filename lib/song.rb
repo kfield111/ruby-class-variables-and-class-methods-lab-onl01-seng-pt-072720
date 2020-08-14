@@ -44,4 +44,20 @@ def self.genre_count
   hash
 end
 
+def self.artist_count
+  hash = {}
+  song_count = 0
+  @@artists.each do |this_artist|
+    if hash.include?(this_artist)
+      hash[this_artist] = song_count += 1
+      #binding.pry
+    else
+      hash[this_artist] = song_count = 1
+    end
+  end
+  hash
+end
+
+
+
 end
