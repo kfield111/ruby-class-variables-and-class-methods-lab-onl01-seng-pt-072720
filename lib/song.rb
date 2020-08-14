@@ -10,6 +10,8 @@ def initialize (name, artist, genre)
   @artist = artist
   @genre = genre
   @@count += 1
+  @@genres ||= []
+  @@genres.push genre
 end
 
 def count
@@ -20,9 +22,6 @@ def artist
   @@artist
 end
 
-def genres
-  @@genres ||= []
-  @@genres.push genre
-end
+
 
 end
