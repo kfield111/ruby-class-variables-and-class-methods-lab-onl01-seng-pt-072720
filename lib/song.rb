@@ -15,6 +15,7 @@ def initialize (name, artist, genre)
   @@genres.push genre
   @@artists.push artist
 end
+
   binding.pry
 
 def self.count
