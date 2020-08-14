@@ -22,5 +22,9 @@ def artists
   @@artist.uniq
 end
 
+def genre
+  @@genre.unig
+end
+
 
 end
