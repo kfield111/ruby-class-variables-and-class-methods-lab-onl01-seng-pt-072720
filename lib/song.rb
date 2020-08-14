@@ -20,4 +20,8 @@ def artist
   @@artist
 end
 
+def genres
+  @@genres ||= []
+  @@genres.push genre
+
 end
