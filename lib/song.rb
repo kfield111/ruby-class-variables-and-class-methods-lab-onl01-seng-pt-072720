@@ -26,5 +26,10 @@ def self.genres
   @@genres.uniq
 end
 
+def self.genre_count(genre, songs)
+  hash = {}
+  hash[genre] ||= []
+  hash[genre].push genre
+end
 
 end
