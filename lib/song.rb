@@ -31,8 +31,8 @@ end
 def self.genre_count
   hash = {}
   hash[key] = 0
-  @@genres.each do |this_genre|
   binding.pry
+  @@genres.each do |this_genre|
   end
 end
 
