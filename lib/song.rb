@@ -28,7 +28,9 @@ end
 
 def self.genre_count
   hash = {}
-  @@genres ||= {}
+  @@genres.each do |key, songs|
+    if key.exists?
+      @@count += 1
 end
 
 end
