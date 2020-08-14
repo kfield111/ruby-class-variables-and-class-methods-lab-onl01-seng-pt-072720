@@ -28,7 +28,7 @@ end
 
 def self.genre_count
   hash = {}
-  @@genres.each do |this_genre|
+    @@genres.each do |this_genre|
     if this_genre.exists?
 
 
