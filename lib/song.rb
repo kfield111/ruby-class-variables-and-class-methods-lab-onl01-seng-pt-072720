@@ -29,7 +29,7 @@ end
 def self.genre_count(genre, songs)
   hash = {}
   hash[genre] ||= []
-  hash[genre].push genre
+  hash[genre].push genre.count
 end
 
 end
